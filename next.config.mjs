@@ -1,7 +1,5 @@
-/** @type {import('next').NextConfig} */
+//next.config.mjs
 const nextConfig = {
-  /* config options here */
-  reactStrictMode: true,
+    pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+    output: "export", 
 };
-
-export default nextConfig;
